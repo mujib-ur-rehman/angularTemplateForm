@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularTemplateForm';
+  onSubmit(data: any) {
+    console.warn(data);
+  }
 }

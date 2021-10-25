@@ -1,0 +1,15 @@
+h1 {
+  color: purple
+}
+
+input.ng.invalid {
+  border-left: 10px solid red;
+}
+
+input.ng.valid {
+  border-left: 10px solid green;
+}
+
+.error {
+  color: red;
+}
